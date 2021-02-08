@@ -4,17 +4,23 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>PerfCopy</RootNamespace>
     <AssemblyName>PerfCopy</AssemblyName>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Extension methods providing high performance deep copy capability for of arrays of common value types - currently: byte, char, short, int, long, and their unsigned brethren where applicable.
 Considerably faster than Array.Copy - and it's also faster than Buffer.BlockCopy in most situations!
 
 High-performance enabled through use of optimised 'unsafe' blocks.
-This package could be a good addition to other packages if you're building in copying of some kind that would benefit from being fast.</Description>
+This package could be a good addition to other packages if you're building in copying of some kind that would benefit from being fast.
+
+This is the same codebase as the PerCopy NuGet package from https://github.com/xorxornop/PerfCopy. Only the package is converted to support .NET Standard.</Description>
     <PackageId>MarcWils.PerfCopy</PackageId>
-    <Authors>zenith</Authors>
-    <Company>zenith</Company>
+    <Authors>MarcWils</Authors>
+    <Company></Company>
     <Product />
+    <RepositoryUrl>https://github.com/MarcWils/PerfCopy</RepositoryUrl>
+    <PackageTags>deep copy performance</PackageTags>
+    <PackageReleaseNotes>This is the same codebase as the PerCopy NuGet package from https://github.com/xorxornop/PerfCopy. Only the package is converted to support .NET Standard.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/MarcWils/PerfCopy</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
